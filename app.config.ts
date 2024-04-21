@@ -5,5 +5,8 @@ export default defineAppConfig({
     icons: {
       dynamic: true,
     },
+    container: {
+      constrained: "max-w-[95rem]",
+    },
   },
 });
