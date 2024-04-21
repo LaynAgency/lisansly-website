@@ -16,5 +16,6 @@ useHead({
   <Header />
   <UContainer>
     <HeroHeader />
+    <Install />
   </UContainer>
 </template>
