@@ -34,8 +34,8 @@ const isOpen = ref(false);
     <UContainer class="flex items-center">
       <img
         src="https://cdn.layn.app/logo.png"
+        class="h-8 mr-auto sm:mr-5"
         alt="logo"
-        class="h-8 mr-auto sm:mr-3"
       />
       <UHorizontalNavigation :links="links" class="hidden sm:flex" />
       <UTooltip
