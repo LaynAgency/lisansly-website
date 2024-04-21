@@ -13,4 +13,5 @@ useHead({
 
 <template>
   <NotificationBar />
+  <Header />
 </template>
