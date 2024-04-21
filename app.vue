@@ -11,4 +11,6 @@ useHead({
 });
 </script>
 
-<template></template>
+<template>
+  <NotificationBar />
+</template>
