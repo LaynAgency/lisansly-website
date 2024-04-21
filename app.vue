@@ -14,4 +14,7 @@ useHead({
 <template>
   <NotificationBar />
   <Header />
+  <UContainer>
+    <HeroHeader />
+  </UContainer>
 </template>
