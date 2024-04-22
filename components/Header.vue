@@ -1,15 +1,18 @@
 <script setup lang="ts">
 const links = [
   {
-    label: "Dökümantasyon",
+    label: "Dokümantasyon",
     icon: "solar:library-outline",
-    to: "/getting-started/installation",
   },
 
   {
     label: "Kontrol Paneli",
     icon: "carbon:dashboard",
-    to: "/components/command-palette",
+  },
+  {
+    label: "Fiyatlandırma",
+    icon: "ion:pricetag-outline",
+    to: "/pricing",
   },
 ];
 
