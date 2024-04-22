@@ -3,7 +3,7 @@ const links = useState<{ label: string; to: string }[]>("links");
 </script>
 
 <template>
-  <footer class="mt-36 border-t-2 border-t-zinc-800 py-10">
+  <footer class="mt-10 border-t-2 border-t-zinc-800 py-10">
     <UContainer
       class="grid sm:grid-cols-2 place-items-center sm:place-items-stretch gap-10"
     >
