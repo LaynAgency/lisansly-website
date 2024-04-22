@@ -1,6 +1,11 @@
 <script setup lang="ts">
 const links = useState("links", () => [
   {
+    label: "Anasayfa",
+    icon: "bx:bx-home",
+    to: "/",
+  },
+  {
     label: "Dokümantasyon",
     icon: "solar:library-outline",
   },
@@ -12,7 +17,7 @@ const links = useState("links", () => [
   {
     label: "Fiyatlandırma",
     icon: "ion:pricetag-outline",
-    href: "/pricing",
+    to: "/pricing",
   },
 ]);
 

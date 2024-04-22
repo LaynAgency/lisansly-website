@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const links = useState<{ label: string; href: string }[]>("links");
+const links = useState<{ label: string; to: string }[]>("links");
 </script>
 
 <template>
@@ -17,11 +17,11 @@ const links = useState<{ label: string; href: string }[]>("links");
       <div class="grid place-items-end">
         <h1 class="font-extrabold text-xl pt-0">Navigasyon</h1>
         <UButton
+          class="pr-1 sm:pr-0 w-full justify-center sm:justify-start sm:w-max"
           v-for="link in links"
           :key="link.label"
-          :to="link.href"
-          class="pr-1 sm:pr-0 w-full justify-center sm:justify-start sm:w-max"
           variant="link"
+          :to="link.to"
           color="gray"
         >
           {{ link.label }}
