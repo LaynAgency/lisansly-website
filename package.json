@@ -10,7 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@highlightjs/vue-plugin": "^2.1.0",
     "@nuxt/ui": "^2.15.2",
+    "highlight.js": "^11.9.0",
+    "highlightjs-line-numbers.js": "^2.8.0",
     "nuxt": "^3.11.2",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
