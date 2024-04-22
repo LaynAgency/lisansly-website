@@ -14,11 +14,6 @@ useHead({
 <template>
   <NotificationBar />
   <Header />
-  <UContainer>
-    <HeroHeader />
-    <Install />
-    <Example />
-    <Docs />
-  </UContainer>
+  <slot />
   <Footer />
 </template>
