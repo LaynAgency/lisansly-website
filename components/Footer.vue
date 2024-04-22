@@ -15,7 +15,7 @@ const links = useState<{ label: string; to: string }[]>("links");
         <p class="text-sm mt-5">© 2024 Vesperias / Lisansly</p>
       </div>
       <div class="grid place-items-end">
-        <h1 class="font-extrabold text-xl pt-0">Navigasyon</h1>
+        <h1 class="font-extrabold pt-0">Navigasyon</h1>
         <UButton
           class="pr-1 sm:pr-0 w-full justify-center sm:justify-start sm:w-max"
           v-for="link in links"
