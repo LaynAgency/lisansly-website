@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const links = [
+const links = useState("links", () => [
   {
     label: "Dokümantasyon",
     icon: "solar:library-outline",
@@ -12,9 +12,9 @@ const links = [
   {
     label: "Fiyatlandırma",
     icon: "ion:pricetag-outline",
-    to: "/pricing",
+    href: "/pricing",
   },
-];
+]);
 
 const socials = [
   {

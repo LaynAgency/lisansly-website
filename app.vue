@@ -20,4 +20,5 @@ useHead({
     <Example />
     <Docs />
   </UContainer>
+  <Footer />
 </template>
