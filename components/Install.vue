@@ -13,10 +13,6 @@ const items = [
     icon: "simple-icons:pnpm",
   },
 ];
-
-function copyToClipboard(text: string) {
-  navigator.clipboard.writeText(text);
-}
 </script>
 
 <template>

@@ -1,0 +1,10 @@
+[
+  {
+    "tab": "client.ts",
+    "code": "import lisansly from '@lisansly/typescript'\n\nconst client = new lisansly({\n  apiKey: 'XXX-XXX-XXX',\n  projectId: 'XXX-XXX-XXX',\n});\n\nexport default client;"
+  },
+  {
+    "tab": "index.ts",
+    "code": "import client from './client.ts'\n\nconst isValid = await client.isValid('XXX-XXX-XXX');\n\nconsole.log(isValid);"
+  }
+]
