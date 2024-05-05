@@ -1,8 +1,8 @@
 <template>
   <UContainer>
-    <HeroHeader />
-    <Install />
-    <Example />
-    <Docs />
+    <HomeHeroHeader />
+    <HomeInstall />
+    <HomeExample />
+    <HomeDocs />
   </UContainer>
 </template>

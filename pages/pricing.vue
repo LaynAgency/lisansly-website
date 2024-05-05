@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useSeoMeta({
+  title: "Fiyatlandırma",
+});
+
 const plans = [
   {
     title: "Ücretsiz",
